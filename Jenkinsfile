@@ -4,7 +4,6 @@ pipeline {
     tools {
         // Install the Maven version configured as "M3" and add it to the path.
         maven "Maven_3.9.12"
-        jdk "jdk"
     }
 
     stages {
@@ -44,4 +43,5 @@ pipeline {
         }
     }
 }
+
 
