@@ -23,7 +23,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/jglick/simple-maven-project-with-tests.git'
+                git 'https://github.com/craigroche-sys/Maven_Test.git'
 
                 // Run Maven on a Windows agent.
                 bat "mvn -Dmaven.test.failure.ignore=true clean package"
@@ -42,6 +42,7 @@ pipeline {
         }
     }
 }
+
 
 
 
