@@ -1,29 +1,3 @@
-// This script handles out-of-band interactions.
-// Change it to do whatever you want to do :)
-
-var extOast = control.getExtensionLoader().getExtension("ExtensionOast")
-var boast = extOast.getBoastService()
-var interactsh = extOast.getInteractshService()
-
-function requestHandler(request) {
-    print("Source: ", request.getSource())
-    print("Referer: ", request.getReferer())
-    print("Handler: ", request.getHandler())
-
-    var msg = request.getHistoryReference().getHttpMessage()
-    print("Request Header:\n", msg.getRequestHeader())
-    print("Request Body:\n", msg.getRequestBody())
-    print()
-}
-
-function install(helper) {
-    boast.addOastRequestHandler(requestHandler)
-    interactsh.addOastRequestHandler(requestHandler)
-    print("OAST Request handler registered.")
-}
-
-function uninstall(helper) {
-    boast.removeOastRequestHandler(requestHandler)
-    interactsh.removeOastRequestHandler(requestHandler)
-    print("OAST Request handler unregistered.")
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb7f30750b5f1cb5cc22f7b8c3b12fc039ce9d3635c79b93711522ff714df4c8
+size 970

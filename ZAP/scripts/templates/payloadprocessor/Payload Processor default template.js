@@ -1,18 +1,3 @@
-// Auxiliary variables/constants for processing.
-var id = 0;
-
-/**
- * Processes the payload.
- * 
- * Called for each payload that needs to be processed.
- * 
- * @param {string} payload - The payload before being injected into the message.
- * @return {string} The payload processed.
- */
-function process(payload) {
-	// Do some processing to payload
-	payload = payload + '-' + id;
-	id++;
-
-	return payload;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2c83071403647b77edba5ad5ad8a4278a13611d1c7c7e0fe419fbf2a12b6c4e
+size 402

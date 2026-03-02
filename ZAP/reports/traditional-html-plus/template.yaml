@@ -1,17 +1,3 @@
-name: Traditional HTML Report with requests and responses
-format: HTML
-mode: HTML
-extension: html
-sections:
- - chart
- - alertcount
- - insights
- - instancecount
- - passingrules
- - alertdetails
- - statistics
- - params
- - sequencedetails
-themes:
- - light
- - dark
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ac287182dd3e92b8e27542d0e7ab833289891ff11570602abdf2dacd8622a8a
+size 259

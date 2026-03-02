@@ -1,29 +1,3 @@
-body {
-  background-color: transparent;
-}
-.site-tree-node {
-  list-style: none;
-  margin-left: 0;
-  padding-left: 1em;
-  text-indent: -1em;
-}
-
-.site-tree-control {
-  cursor: pointer;
-}
-
-span.errorMessages {
-  color: red;
-}
-
-.hidden {
-  display: none
-}
-
-.accordion-header {
-  cursor: pointer;
-}
-
-.menu-item {
-  cursor: pointer;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ef8354dc5e8740c101eaf5218dff6e40aa15146fb780e25254cc9642b1b58f3
+size 328

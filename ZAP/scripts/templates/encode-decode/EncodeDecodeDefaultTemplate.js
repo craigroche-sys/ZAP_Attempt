@@ -1,14 +1,3 @@
-/**
- * Process the input value and return the encoded/decoded/hashed etc. value
- *
- * Use helper.newError("Error Description") to provide an error description
- * inside the result view.
- *
- * @param {EncodeDecodeScriptHelper} helper - A helper object with various utility methods.
- *     For more details see https://github.com/zaproxy/zap-extensions/tree/main/addOns/encoder/src/main/java/org/zaproxy/addon/encoder/processors/script/EncodeDecodeScriptHelper.java
- * @param {String} value - The input value
- * @returns {EncodeDecodeResult} - The value that was encoded/decoded/hashed etc. easiest via helper.newResult(result).
- */
-function process(helper, value){
-	return helper.newResult(value);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b02b386c86948f60483654ca1907e0a8c85b8a245b9394b5cb4da9c8a58dd1b2
+size 699

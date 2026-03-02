@@ -1,18 +1,3 @@
-// This script traverses the sites tree - change it to do whatever you want to do :)
-//
-// Standalone scripts have no template.
-// They are only evaluated when you run them. 
-
-function listChildren(node, level) {
-    var j;
-    for (j=0;j<node.getChildCount();j++) {
-        print(Array(level+1).join("    ") + node.getChildAt(j).getNodeName());
-        listChildren(node.getChildAt(j), level+1);
-    }
-}
-
-root = model.getSession().getSiteTree().getRoot();
-
-listChildren(root, 0);
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:c9deeb4edf5ac15e78ab83bf34b25cb63056ef5f645119acbb29af9513fd0883
+size 483

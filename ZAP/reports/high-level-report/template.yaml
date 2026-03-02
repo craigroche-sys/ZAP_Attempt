@@ -1,9 +1,3 @@
-name: High Level Report Sample 
-format: HTML
-mode: HTML
-extension: html
-sections:
- - riskSummaryChart
- - bugsCountChart
- - insights
- - vulnerabilityImpact
+version https://git-lfs.github.com/spec/v1
+oid sha256:eed09b16f04693c39e9e9b02fa83f627b1391109380881450a5789185c59664f
+size 155

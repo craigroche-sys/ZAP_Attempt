@@ -1,13 +1,3 @@
-// This script demonstrates how to get Interactsh payloads in scripts.
-
-var extOast = control.getExtensionLoader().getExtension("ExtensionOast")
-var interactsh = extOast.getInteractshService()
-
-if (!interactsh.isRegistered()) {
-    // Set the server URL you're using between the quotes below
-    interactsh.getParam().setServerUrl("")
-    // interactsh.getParam().setAuthToken("auth token value")
-    interactsh.register()
-}
-
-print(interactsh.getNewPayload())
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9f111204571882ef1d6d4887b70ccccb3f09371acbe1fdc52795e081ec2595e
+size 460

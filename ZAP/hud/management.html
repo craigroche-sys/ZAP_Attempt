@@ -1,32 +1,3 @@
-<html>
-<head>
-	<link rel="stylesheet" type="text/css" href="<<ZAP_HUD_FILES>>/file/libraries/spectre.css"/>
-	<link rel="stylesheet" type="text/css" href="<<ZAP_HUD_FILES>>/file/management.css" />
-
-	<script type="text/javascript" src="<<ZAP_HUD_FILES>>/file/libraries/vue.js"></script>
-	<script src="<<ZAP_HUD_FILES>>/file/libraries/localforage.min.js"></script>
-	<script src="<<ZAP_HUD_FILES>>/file/utils.js"></script>
-	<script src="<<ZAP_HUD_FILES>>/file/management.js"></script>
-</head>
-<body>
-	<div id="app"> 
-		<welcome-screen v-show="showWelcomeScreen"></welcome-screen>
-	</div>
-
-	<template id="welcome-screen-template">
-		<div class="welcome-div">
-			<img class="welcome-image" src='<<ZAP_HUD_FILES>>/image/hud-welcome.png'>
-			<div class="tutorial-div">
-				<button class="btn btn-primary" @click="continueToTutorial"> Take the HUD Tutorial </button>
-			</div>
-			<div class="target-div">
-				<button class="btn btn-primary" @click="closeWelcomeScreen"> Continue to your target </button>
-			</div>
-			<div class="doNotShowAgain-div">
-				<input type="checkbox" id="doNotShowAgain" v-model="doNotShowAgain">
-				<label for="doNotShowAgain">Don't show this screen again</label>
-			</div>
-		</div>
-	</template>
-</body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:6dc569d8656b9ba71daa89f4d460494ad768d4aa457c1c03104df213445369bd
+size 1231

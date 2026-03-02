@@ -1,18 +1,3 @@
-// Targeted scripts can only be invoked by you, the user, e.g. via a right-click option on the Sites or History tabs
-
-function invokeWith(msg) {
-	// Debugging can be done using println like this
-	print('Finding comments in ' + msg.getRequestHeader().getURI().toString()); 
-
-	var body = msg.getResponseBody().toString()
-	// Look for html comments
-	if (body.indexOf('<!--') > 0) {
-		var o = body.indexOf('<!--');
-		while (o > 0) {
-			var e = body.indexOf('-->', o);
-			print("\t" + body.substr(o,e-o+3)) 
-			o = body.indexOf('<!--', e);
-		}
-	}
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c31674de924f511ba5ce569e26a777c3bba2e7174563b53f7650b8f937b51c1
+size 545
